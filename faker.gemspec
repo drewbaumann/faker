@@ -2,16 +2,16 @@ $:.push File.expand_path("../lib", __FILE__)
 require "faker/version"
 
 Gem::Specification.new do |s|
-  s.name        = "faker"
+  s.name        = "faker-fakeme"
   s.version     = Faker::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Benjamin Curtis"]
-  s.email       = ["benjamin.curtis@gmail.com"]
+  s.authors     = ["Benjamin Curtis", "Drew Baumann"]
+  s.email       = ["benjamin.curtis@gmail.com", "DrewBaumann@gmail.com"]
   s.homepage    = "http://faker.rubyforge.org"
   s.summary     = %q{Easily generate fake data}
-  s.description = %q{Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.}
+  s.description = %q{Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc. This particular build is for a side project I am working on with Andrew Skotzko.}
   
-  s.rubyforge_project = "faker"
+  s.rubyforge_project = "faker-fakeme"
 
   s.add_dependency('i18n', '~> 0.4')
 

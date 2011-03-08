@@ -41,6 +41,7 @@ module Faker
 end
 
 require 'faker/address'
+require 'faker/career'
 require 'faker/company'
 require 'faker/internet'
 require 'faker/lorem'

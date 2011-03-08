@@ -1,8 +1,8 @@
 module Faker
-  class Address < Base
+  class Career < Base
     class << self
-      def country
-        fetch('address.country')
+      def occupation
+        fetch('career.occupation')
       end
     end
   end
